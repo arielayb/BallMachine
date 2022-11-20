@@ -449,11 +449,10 @@ GameObject:
   - component: {fileID: 1124866415}
   - component: {fileID: 1124866414}
   - component: {fileID: 1124866413}
-  - component: {fileID: 1124866416}
   - component: {fileID: 1124866417}
   m_Layer: 0
-  m_Name: elementExplosive028
-  m_TagString: Untagged
+  m_Name: catapult
+  m_TagString: catapult
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -543,26 +542,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124866412}
-  m_LocalRotation: {x: -0, y: -0, z: 0.5427144, w: 0.83991736}
-  m_LocalPosition: {x: -2.35, y: 1.82, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -1, y: 2.17, z: 0}
   m_LocalScale: {x: 4.2723145, y: 3.01689, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 65.737}
---- !u!114 &1124866416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1124866412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: def0c18e09dc770a9a75c61395113d9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &1124866417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -575,6 +562,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a97f6cc81571d4755b466f761541fe3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 12
+  launchPos: 4.53
 --- !u!1 &1776894224
 GameObject:
   m_ObjectHideFlags: 0
